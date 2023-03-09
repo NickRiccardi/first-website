@@ -1,0 +1,33 @@
+body    {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul  {
+    list-style: none;
+    padding: 0;
+}
+
+.header-left    {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-right   {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+a   {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
