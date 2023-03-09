@@ -37,7 +37,7 @@ a   {
 .one    {
     display: flex;
     background-color: #1F2937;
-    padding: 5%;
+    padding: 2%;
 }
 
 .one-left   {
@@ -79,4 +79,28 @@ button  {
     width: auto;
     max-width: 300px;
     max-height: 300px;
+}
+
+#affiliations   {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.aff-pics,
+.aff-info   {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 52px;
+}
+
+.text   {
+    width: 225px;
+    text-align: center;
 }
