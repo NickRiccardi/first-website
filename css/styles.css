@@ -6,7 +6,7 @@ body    {
 
 .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: #1f2937;
     align-items: center;
     padding-left: 2%;
     padding-right: 2%;
@@ -40,7 +40,7 @@ a   {
 
 .one    {
     display: flex;
-    background-color: #1F2937;
+    background-color: #1f2937;
     padding: 2%;
 }
 
@@ -64,16 +64,6 @@ a   {
     margin-bottom: 10px;
 }
 
-button  {
-    width: fit-content;
-    background-color: #3882f6;
-    color: #e5e7eb;
-    border-radius: 10px;
-    border-color: #e5e7eb;
-    padding: 10px;
-    border: solid;
-}
-
 .one-right  {
     margin-left: auto;
     margin-right: auto;
@@ -89,6 +79,7 @@ button  {
 #affiliations   {
     display: flex;
     flex: auto;
+    color: #1f2937;
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
@@ -113,6 +104,8 @@ button  {
     margin: 8px;
     align-items: center;
     justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
 }
 
 .text   {
@@ -126,39 +119,6 @@ button  {
     color: #1f2937;
     font-style: italic;
     padding: 100px;
-}
-
-.four   {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    align-items: center;
-}
-
-.four-left  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #e5e7eb;
-    margin-right: 10px;
-}
-
-.four-header    {
-    font-weight: bold;
-}
-
-.four-body  {
-    font-weight: lighter;
-}
-
-.four-container {
-    display: flex;
-    background-color: #3882f6;
-    padding: 10px;
-    border-radius: 10px;
-    border-color: #e5e7eb;
-    padding: 50px;
-    border: none;
 }
 
 .footer {
