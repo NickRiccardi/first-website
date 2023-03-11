@@ -6,9 +6,7 @@ body    {
 .header {
     display: flex;
     background-color: #1F2937;
-    flex: auto;
     align-items: center;
-    justify-content: center;
 }
 
 ul  {
@@ -17,15 +15,18 @@ ul  {
 }
 
 .header-left    {
+    display: flex;
     color: #f9faf8;
     font-size: 24px;
     width: 50%;
+    justify-content: center;
 }
 
 .header-right   {
     display: flex;
-    width: 300px;
-    justify-content: space-between;
+    flex-shrink: 0;
+    width: 50%;
+    justify-content: space-evenly;
 }
 
 a   {
@@ -44,7 +45,7 @@ a   {
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-right: 5%;
+    justify-content: center;
 }
 
 .one-left-header    {
@@ -87,20 +88,29 @@ button  {
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
-    margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.aff-pics,
-.aff-info   {
+.card-container {
+    padding: 16px;
     display: flex;
-    flex: auto;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card   {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    width: 330px;
+    padding: 8px;
+    margin: 8px;
     align-items: center;
-    gap: 52px;
+    justify-content: center;
 }
 
 .text   {
-    width: 225px;
-    text-align: center;
+    margin-top: 10px;
 }
