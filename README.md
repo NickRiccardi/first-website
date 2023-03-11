@@ -1,2 +1,2 @@
 # first-website
-My first website - Odin
+My first website - Odin Project
